@@ -8,48 +8,70 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
         android:fontFamily="@font/audiowide"
         android:text="MolStop"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="48sp"
         android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="120dp" />
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
+        android:id="@+id/datum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Beérkezési idő"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="242dp"
+        android:layout_marginTop="48dp"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:textAlignment="center"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Beérkezési idő"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/datum"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
         android:text="Kilépési idő"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="372dp" />
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
         android:text="Cigiszünet"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="504dp" />
+        tools:layout_editor_absoluteX="0dp" />
 
     <Button
         android:layout_width="wrap_content"
