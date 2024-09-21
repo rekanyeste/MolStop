@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "887035152978",
+    "project_id": "molstop",
+    "storage_bucket": "molstop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887035152978:android:0a56b79bb2cea50bccad8b",
+        "android_client_info": {
+          "package_name": "com.example.molstop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCR9bBAvTWd3eLpl1o9QWObsHSPSKupF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
